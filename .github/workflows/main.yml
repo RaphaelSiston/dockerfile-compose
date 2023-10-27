@@ -1,4 +1,4 @@
-name: build dockerfile-compose
+name: build and push
 
 
 on:
