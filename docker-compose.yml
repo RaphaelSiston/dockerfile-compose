@@ -1,7 +1,7 @@
 services:
     web: 
-      image: nginx:1.0
-      build: .
+      image: nginx:1.0 
+      build: . 
       container_name: servidor-nginx
       ports:
        - 8080:80
