@@ -1,0 +1,10 @@
+services:
+    web: 
+      image: nginx:1.0
+      build: .
+      container_name: servidor-nginx
+      ports:
+       - 8080:80
+      volumes:
+      - ./site:/usr/share/nginx/html 
+      
