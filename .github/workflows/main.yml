@@ -1,4 +1,4 @@
-name: build and dockerfile-compose
+name: build and push
 
 
 on:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  build-and-dockerfile-compose:
+  build and push:
     runs-on: ubuntu-latest
 
     steps:

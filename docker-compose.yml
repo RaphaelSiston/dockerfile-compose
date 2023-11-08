@@ -6,5 +6,4 @@ services:
       ports:
        - 8080:80
       volumes:
-      - ./site:/usr/share/nginx/html 
-      
+      - ./site:/usr/share/nginx/html
